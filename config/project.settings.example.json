@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "everything-claude-code@everything-claude-code": true
+  },
+  "env": {
+    "ECC_HOOK_PROFILE": "minimal",
+    "ECC_DISABLED_HOOKS": "pre:bash:dispatcher,pre:write:doc-file-warning,pre:edit-write:suggest-compact,pre:observe:continuous-learning,pre:governance-capture,pre:config-protection,pre:mcp-health-check,pre:edit-write:gateguard-fact-force,pre:compact,session:start,post:bash:dispatcher,post:quality-gate,post:edit:design-quality-check,post:edit:accumulate,post:edit:console-warn,post:governance-capture,post:session-activity-tracker,post:observe:continuous-learning,post:mcp-health-check,stop:format-typecheck,stop:check-console-log,stop:session-end,stop:evaluate-session,stop:cost-tracker,stop:desktop-notify,session:end:marker"
+  }
+}

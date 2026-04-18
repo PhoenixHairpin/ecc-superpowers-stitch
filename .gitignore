@@ -1,0 +1,9 @@
+# Local Claude settings
+.claude/settings.local.json
+
+# Local private notes
+*.local.md
+
+# Secrets and env files
+.env
+.env.*
