@@ -1,5 +1,7 @@
 # ECC + Superpowers Stitch Template
 
+中文 | [English](README.en.md)
+
 这是一个**可直接 fork** 的模板仓库，用来保存并复用一套稳定的 Claude Code 插件整合方案。
 
 目标不是同时让两个插件都当“默认主控”，而是固定成：
@@ -17,15 +19,28 @@
 
 ## 模板内容
 
-- `docs/integration-strategy.md`：整合原则与 owner matrix
-- `docs/apply.md`：安装与落地步骤
-- `docs/usage-rules.md`：日常使用规则
-- `docs/customize.md`：如何按你自己的习惯修改模板
-- `docs/checklist.md`：fork 后的检查清单
-- `config/settings.example.json`：全局设置示例
-- `config/project.settings.example.json`：项目级设置示例
-- `templates/CLAUDE.example.md`：项目内可复制的协作说明模板
-- `.gitignore`：避免误传本机敏感配置
+### 中文文档
+
+- `docs/zh/integration-strategy.md`
+- `docs/zh/apply.md`
+- `docs/zh/usage-rules.md`
+- `docs/zh/customize.md`
+- `docs/zh/checklist.md`
+
+### English docs
+
+- `docs/en/integration-strategy.md`
+- `docs/en/apply.md`
+- `docs/en/usage-rules.md`
+- `docs/en/customize.md`
+- `docs/en/checklist.md`
+
+### Shared config/templates
+
+- `config/settings.example.json`
+- `config/project.settings.example.json`
+- `templates/CLAUDE.example.md`
+- `.gitignore`
 
 ## 一句话原则
 
@@ -62,19 +77,6 @@
 ### 4. 重启 Claude Code
 
 插件启用与环境变量都依赖重启。
-
-## 模板适用范围
-
-适合：
-
-- 想同时保留 Superpowers 和 ECC
-- 但不希望两边在默认流程上“抢主控权”
-- 希望后续还能逐步恢复部分 ECC 能力
-
-不适合：
-
-- 想把 ECC 的全量 hooks 全开
-- 想让两边都自动接管规划 / 执行 / review
 
 ## 安全说明
 
